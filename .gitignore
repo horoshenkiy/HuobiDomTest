@@ -1,0 +1,3 @@
+# ignore Clion files
+cmake-build-*
+.idea/*

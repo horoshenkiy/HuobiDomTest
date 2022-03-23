@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 #include <windows.h>
 #include <process.h>
 #include <math.h>

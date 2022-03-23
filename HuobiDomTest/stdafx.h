@@ -4,20 +4,19 @@
 //
 
 #pragma once
-#include <windows.h>
 
+#include <windows.h>
 #include "targetver.h"
 
-#include <stdio.h>
 #include <tchar.h>
+#include <cstdio>
+#include <cstring>
 
 #include <string>
 #include <iostream>
-#include <stdio.h>
-#include <string.h>
 #include <vector>
 #include <map>
-using namespace std;
 
+using namespace std;
 
 // TODO: reference additional headers your program requires here

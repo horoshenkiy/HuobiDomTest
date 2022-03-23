@@ -143,8 +143,8 @@ public:
 
 	std::string ToString();
 	//	static STimeSpan FromString(__in LPCSTR szInput, __out int &nDay, __out int &nMonth, __out int &nYear, __out int &nHour, __out int &nMin, __out int &nSec);
-	static STimeSpan FromString(__in LPCSTR szInput);
-	static STimeSpan FromMksString(__in LPCSTR szInput);
+	static STimeSpan FromString(LPCSTR szInput);
+	static STimeSpan FromMksString(LPCSTR szInput);
 private:
 	STimeSpan(LONGLONG span) : m_span(span) {}
 

@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 #include "DateTime.h"
 
 SDateTime::SDateTime(int nYear, int nMonth, int nDay, int nHour, int nMinute, int nSecond, int nMS)
@@ -203,7 +203,7 @@ std::string STimeSpan::ToString()
 	return szBuf;
 }
 
-STimeSpan STimeSpan::FromString(__in LPCSTR szInput)
+STimeSpan STimeSpan::FromString(LPCSTR szInput)
 {
 	int nHour = 0;
 	int nMin = 0;
@@ -220,7 +220,7 @@ STimeSpan STimeSpan::FromString(__in LPCSTR szInput)
 	return FromMilliseconds((nHour * 3600 + nMin * 60 + nSec) * 1000 + nMS);
 }
 
-STimeSpan STimeSpan::FromMksString(__in LPCSTR szInput)
+STimeSpan STimeSpan::FromMksString(LPCSTR szInput)
 {
 	LONGLONG nHour = 0;
 	LONGLONG nMin = 0;
